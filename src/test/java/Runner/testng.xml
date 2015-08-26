@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Voice-Suite" parallel="tests" thread-count="1">
+
+	<test name="Voice-Test" preserve-order="true" verbose="2">
+		<!--<packages>
+	        <package name="org.sample.something.someone1"/>
+	        <package name="org.sample.something.someone2"/>
+	    </packages> -->
+	    
+		  <classes>
+			    <class name="com.voice.signups.Voice_Signups"/>
+		  </classes>
+	</test>
+	
+</suite>

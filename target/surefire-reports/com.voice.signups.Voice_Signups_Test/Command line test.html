@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 26 14:10:00 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>107 seconds (107370 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.voice.signups.Voice_Signups_Test.Signup()'><b>Signup</b><br>Test class: com.voice.signups.Voice_Signups_Test<br/>
+<a href="#Output-23422358" onClick='toggleBox("Output-23422358", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23422358" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23422358">
+Stale element found, trying again... : 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=44.0.2403.157)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'hydws72726', ip: '10.103.27.150', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 092938c8e1eb43975e2f8d0669282967
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\snakka\AppData\Local\Temp\scoped_dir7496_21444}, rotatable=false, locationContextEnabled=true, version=44.0.2403.157, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>com.voice.signups.Voice_Signups_Test@1c37b8f</td></tr>
+</table><p>
+</body>
+</html>
